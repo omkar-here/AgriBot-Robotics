@@ -1,22 +1,20 @@
-# Agri-Bot
+# AgriBot
 
-![](pics/theme_image.png)
+![](Agribot.png)
 
-Strawberry Stacker is one of the themes in 10th edition of [E-Yantra Robotics Competition](https://portal.e-yantra.org/) 2021-2022 , an international robotics outreach program funded by the Ministry of Education and hosted at the [Indian Institute of Technology, Bombay](https://www.iitbombay.org/)
+AgriBot is one of the themes in 10th edition of [E-Yantra Robotics Competition](https://portal.e-yantra.org/) 2021-2022 , an international robotics outreach program funded by the Ministry of Education and hosted at the [Indian Institute of Technology, Bombay](https://www.iitbombay.org/)
 
-This repository provides solutions to the tasks for the Strawberry Stacker theme. 
+This repository explains our approach to the tasks for the AgriBot theme. 
 
-Our team consisting of 3 interdisciplinary members ( [Mukil Saravanan*](https://www.linkedin.com/in/mukil-saravanan-18800285/), [Sanjay Kumar M*](https://www.linkedin.com/in/sanjay-kumar-m-6877601ba/), [HariRaj Anandarajan](https://www.linkedin.com/in/hari-raj-anandarajan-65a35119b/) ) from the Government College of Technology, Coimbatore has secured an overall 11th position among 152 international teams in the theme. 
-
-*main contributors 
+Our team consisting of 3 members(myself Team Leader) from the Father Conceicao Rodrigues College of Engineering,Bandra has secured an overall 12th position among 255 international teams in the theme. 
 
 ## Theme description
-Commercial strawberry harvesting necessitates expert labour. The picker must swiftly identify any ripe strawberries on a plant, select them, and pack the berries into boxes all at the same time. This is labour for the employees as well as bad for the farm's overall efficiency. 
+Commercial harvesting necessitates expert labour. The picker must swiftly identify any ripe tomatoes on a plant, select them,pick and place them into boxes all at the same time. This is labour for the employees as well as bad for the farm's overall efficiency. 
 
-The aim is to build a multi-drone system for picking strawberry boxes from a field and stacking them onto a transport trailer. A total of 6 incremental tasks starting from the installation to the final solution to the problem are detailed here.
+The aim is to train an AgriBot for picking tomatoes from a greenhouse environment and placing them into its basket. A total of 6 incremental tasks starting from the installation to the final solution to the problem are detailed here.
 
 ## Software Specifications
-We will use Gazebo simulator, a robotics simulator, where the simulated farm and UAVs will dwell, the PX4 Autopilot ecosystem for controlling the UAV, and ROS for integrating the many parts of autonomy required in the solution.
+We will use Gazebo simulator, a robotics simulator, where the simulated greenhouse and Agribot will dwell, the MoveIt Motion Planning Framework for controlling the Robotic Arm, and ROS for integrating the many parts of autonomy required in the solution.
 ### 1. [Ubuntu 20.04 LTS](https://releases.ubuntu.com/20.04/)
 - Ubuntu 20.04, a Linux environment is used for running all the packages and programmes such as Gazebo 11 etc.
 

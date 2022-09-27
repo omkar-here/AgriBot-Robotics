@@ -25,7 +25,7 @@ We will use Gazebo simulator, a robotics simulator, where the simulated greenhou
 ### 3. [Gazebo](https://gazebosim.org/home)
 - Gazebo 11, a physical engine (used for simulation) is tightly integrated with ROS Noetic and so it comes pre-installed when      ```ros-noetic-desktop-full``` is installed.
 
-### 4. [MoveIt](https://px4.io/)
+### 4. [MoveIt](https://moveit.ros.org/)
 - MoveIt is an open-source robotic manipulation platform that allows you to develop complex manipulation applications using ROS.
 - It is a free-space motion planning framework for ROS.
 

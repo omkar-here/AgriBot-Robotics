@@ -9,7 +9,7 @@ This repository explains our approach to the tasks for the AgriBot theme.
 Our team consisting of 3 members(myself Team Leader) from the Father Conceicao Rodrigues College of Engineering,Bandra has secured an overall 12th position among 255 international teams in the theme. 
 
 ## Theme description
-Commercial harvesting necessitates expert labour. The picker must swiftly identify any ripe tomatoes on a plant, select them,pick and place them into boxes all at the same time. This is labour for the employees as well as bad for the farm's overall efficiency. 
+Commercial harvesting necessitates expert labour. The picker must swiftly identify any ripe tomatoes on a plant, select them,pick and place them into basket all at the same time. This is labour for the employees as well as bad for the farm's overall efficiency. 
 
 The aim is to train an AgriBot for picking tomatoes from a greenhouse environment and placing them into its basket. A total of 6 incremental tasks starting from the installation to the final solution to the problem are detailed here.
 
@@ -25,9 +25,9 @@ We will use Gazebo simulator, a robotics simulator, where the simulated greenhou
 ### 3. [Gazebo](https://gazebosim.org/home)
 - Gazebo 11, a physical engine (used for simulation) is tightly integrated with ROS Noetic and so it comes pre-installed when      ```ros-noetic-desktop-full``` is installed.
 
-### 4. [PX4 Autopilot](https://px4.io/)
-- PX4 is an open source flight control software for drones and other unmanned vehicles.
-- It provides a standard to deliver drone hardware support and software stack, allowing an ecosystem to build and maintain hardware and software in a scalable way.
+### 4. [MoveIt](https://px4.io/)
+- MoveIt is an open-source robotic manipulation platform that allows you to develop complex manipulation applications using ROS.
+- It is a free-space motion planning framework for ROS.
 
 ### 5. [QGroundControl](http://qgroundcontrol.com/)
 - QGroundControl provides full flight control and mission planning for any MAVLink enabled drone. 

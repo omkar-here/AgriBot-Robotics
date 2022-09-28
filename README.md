@@ -29,9 +29,9 @@ We will use Gazebo simulator, a robotics simulator, where the simulated greenhou
 - MoveIt is an open-source robotic manipulation platform that allows you to develop complex manipulation applications using ROS.
 - It is a free-space motion planning framework for ROS.
 
-### 5. [QGroundControl](http://qgroundcontrol.com/)
-- QGroundControl provides full flight control and mission planning for any MAVLink enabled drone. 
-- It acts as a Ground Control Station (GCS) of the drone.
+### 5. [Rviz](http://wiki.ros.org/rviz/UserGuide#Move_Camera_.28Keyboard_shortcut:_m.29)
+- rviz (short for “ROS visualization”) is a 3D visualization software tool for robots, sensors, and algorithms. 
+- It uses sensor data to try to create an accurate depiction of what is going on in the robot’s environment..
 
 ### 6. [Python3](https://www.python.org/download/releases/3.0/)
 - All the programs interfacing with ROS Noetic framework are written in Python3. 

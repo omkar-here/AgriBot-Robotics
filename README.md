@@ -53,13 +53,14 @@ The video/image solutions are also added in the README files.
 The competition was carried out in a step-wise manner. The whole theme implementation was divided into several subtasks and then the algorithms and techniques of individual tasks were to be skillfully merged to accomplish the Final Task. I have tried to explain our preparation,approach and implementation in each of the individual tasks properly. Its my request to read this entire repo to get the complete feel of our work. Hope its joyful!
 
 ## Task 0
-The aim of this task is to get you started with installation of required software components like ROS Melodic and Gazebo. An assignment was given to get hands-on ROS and other tools.
+The aim of this task is to get you started with installation of required software components like ROS Melodic and Gazebo. An small assignment was given to get hands-on ROS and other tools.
 
 
 <img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Gazebo.PNG" width="400" height="300"><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/ROS%20Melodic.png" width="400" height="300">
 
-## Task 1
-The aim of this task is to design controllers which will control the eDrone's orientation as well as position in Gazebo environment namely attitude and position controller scripts.
+## Task 1 - Autonomous Navigation in the GreenHouse
+The aim of this task is to make the AgriBot move in the Entire GreenHouse Environment in the shortest time possible. 
+A LIDAR sensor is present in the Agribot vehicle at its center. With the help of LIDAR sensor data, we programmed our Agribot to navigate properly without collisions with the troughs. We incorporated smooth turnings at endpoints to save on time.Rospy was mainly used as the programming language including other python libraries.
 
 <img src="https://github.com/AnuragGupta806/e-yantra-Vitran-Drone/blob/main/screenshots/cascade_control_system.png" width="900" height="300">  
 

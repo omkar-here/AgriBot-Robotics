@@ -62,7 +62,7 @@ The aim of this task is to get you started with installation of required softwar
 The aim of this task is to make the AgriBot move in the Entire GreenHouse Environment in the shortest time possible. 
 A LIDAR sensor is present in the Agribot vehicle at its center. With the help of LIDAR sensor data, we programmed our Agribot to navigate properly without collisions with the troughs. We incorporated smooth turnings at endpoints to save on time.Rospy was mainly used as the programming language including other python libraries.
 
-<img src="https://github.com/AnuragGupta806/e-yantra-Vitran-Drone/blob/main/screenshots/cascade_control_system.png" width="900" height="300">  
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/agribot.png" width="900" height="300">  
 
 <img align="center" src="https://github.com/AnuragGupta806/e-yantra-Vitran-Drone/blob/main/screenshots/task.gif" width="600" height="500">
 

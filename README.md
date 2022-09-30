@@ -43,7 +43,7 @@ For each task package, README files are provided which give details about the pr
 The video/image solutions are also added in the README files.
 - [Task 0 - Getting familiar with ROS and Ubuntu](task_0/README.md)
 - [Task 1 - ROS navigation in the green house environment](task_1)
-- [Task 2 - Getting started with Arm Manipulation (forward kinematics)](task_2)
+- [Task 2 - Getting started with Arm Manipulation (Forward kinematics)](task_2)
 - [Task 3.1 - Detection and Extraction of tomato pose co-ordinates and broadcasting them in Rviz ](task_3_1)
 - [Task 3.2 - Autonomous Detection and performing Pick and Place with Robotic Arm (Inverse Kinematics)](task_3_2)
 - [Task 4 - Pick and Place Using Multiple Drones](task_4/)

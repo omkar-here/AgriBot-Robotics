@@ -39,16 +39,13 @@ We will use Gazebo simulator, a robotics simulator, where the simulated greenhou
 
 
 ## Tasks
-For each task package, README files are provided which give details about the problem statement and the task specifications. 
-The video/image solutions are also added in the README files.
 - [Task 0 - Getting familiar with ROS and Ubuntu](task_0/README.md)
 - [Task 1 - ROS navigation in the green house environment](task_1)
 - [Task 2 - Getting started with Arm Manipulation (Forward kinematics)](task_2)
 - [Task 3.1 - Detection and Extraction of tomato pose co-ordinates and broadcasting them in Rviz ](task_3_1)
 - [Task 3.2 - Autonomous Detection and performing Pick and Place with Robotic Arm (Inverse Kinematics)](task_3_2)
-- [Task 4 - Pick and Place Using Multiple Drones](task_4/)
-- [Task 5 - Theme Implementation](task_5)
-- [Task 6 - Final Theme Implementation](task_6)
+- [Task 4 - Theme Implementation](task_4)
+- [Task 5 - Final Theme Implementation](task_5)
 ## Flow
 The competition was carried out in a step-wise manner. The whole theme implementation was divided into several subtasks and then the algorithms and techniques of individual tasks were to be skillfully merged to accomplish the Final Task. I have tried to explain our preparation,approach and implementation in each of the individual tasks properly. Its my request to read this entire repo to get the complete feel of our work. Hope its joyful!
 
@@ -83,8 +80,8 @@ In this task the Bot was supposed to perform pick_N_place of tomatoes in the bas
   <td align='center'>
     End effector grabbing the tomato -(A glance from the implementation!!)
 </td></tr></table>
-## Task 3.1- Detecting & broadcasting tomato poses on Rviz
 
+## Task 3.1- Detecting & broadcasting tomato poses on Rviz
 ## Task 3.2- Autonomous pick_N_place of tomatoes(Perception and Inverse Kinematics)
 ## Task 4- Theme Implementation
 ## Task 5- Final Theme Implementation

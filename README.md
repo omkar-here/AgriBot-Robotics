@@ -38,34 +38,14 @@ We will use Gazebo simulator, a robotics simulator, where the simulated greenhou
 - It comes preinstalled with ROS Noetic.
 
 
-
-## Installation
-- Install ROS Noetic and set up PX4 as given in [Task 0 README](task_0/README.md)
-- Clone the repository in your workspace src folder.
-    ```bash
-    cd ~/catkin_ws/src
-    git clone https://github.com/MukilSaravanan/StrawberryStacker.git
-    ```
-- Build the package.
-    ```bash
-    cd ..
-    catkin build
-    ```
-
 ## Tasks
 For each task package, README files are provided which give details about the problem statement and the task specifications. 
 The video/image solutions are also added in the README files.
-- [Task 0 - Software Setup](task_0/README.md)
-- [Task 1 - Getting Started with ArUco and ROS](task_1)
-- [Task 2 - Getting Started with PX4](task_2)
-- [Task 3 - Pick and Place](task_3)
+- [Task 0 - Getting familiar with ROS and Ubuntu](task_0/README.md)
+- [Task 1 - ROS navigation in the green house environment](task_1)
+- [Task 2 - Getting started with Arm Manipulation (forward kinematics)](task_2)
+- [Task 3.1 - Detection and Extraction of tomato pose co-ordinates and broadcasting them in Rviz ](task_3_1)
+- [Task 3.2 - Autonomous Detection and performing Pick and Place with Robotic Arm (Inverse Kinematics)](task_3_2)
 - [Task 4 - Pick and Place Using Multiple Drones](task_4/)
 - [Task 5 - Theme Implementation](task_5)
 - [Task 6 - Final Theme Implementation](task_6)
-
-## Acknowledgement
-- Premnath
-- Venkat Raman
-- Hyden A
-- Sabarish R
-- Anitha K

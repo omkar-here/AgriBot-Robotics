@@ -62,15 +62,29 @@ The aim of this task is to get you started with installation of required softwar
 The aim of this task is to make the AgriBot move in the Entire GreenHouse Environment in the shortest time possible. 
 A LIDAR sensor is present in the Agribot vehicle at its center. With the help of LIDAR sensor data, we programmed our Agribot to navigate properly without collisions with the troughs. We incorporated smooth turnings at endpoints to save on time.Rospy was mainly used as the programming language including other python libraries.
 
-<!-- <img src="https://github.com/Omkar-here/Agri-Bot/blob/main/agribot.png" width="400" height="300" style="margin-right: 30px"><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Agribot_greenhouse.png" width="400" height="300">
+<!-- <img src="" width="400" height="300" style="margin-right: 30px"><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Agribot_greenhouse.png" width="400" height="300">
 <p>                  AgriBot                      </p> -->
-<table><tr><td>
-    <img src="https://github.com/Omkar-here/Agri-Bot/blob/main/agribot.png" width="400" height="300" style="margin-right: 30px">
+<table><th><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/agribot.png" width="400" height="300" style="margin-right: 30px"></th>
+    <th><img style="margin-right: 50px" src="https://github.com/Omkar-here/Agri-Bot/blob/main/Agribot_greenhouse.png" width="400" height="300px" ></th><tr>
+    <td>
+    AgriBot-A csv vehicle with 6-DOF Robotic Arm mounted.
 </td>
-  <td>
-    <img style="margin-right: 50px" src="https://github.com/Omkar-here/Agri-Bot/blob/main/Agribot_greenhouse.png" width="400" height="300" >
+  <td align='center'>
+    GreenHouse Environment
 </td></tr></table>
 
-<img align="center" src="https://github.com/AnuragGupta806/e-yantra-Vitran-Drone/blob/main/screenshots/task.gif" width="600" height="500">
+## Task 2- Robotic Arm Manipulation
+In this task the Bot was supposed to perform pick_N_place of tomatoes in the basket.In this task we were provided with tomato poses.Hence knowing where the tomato is, wasn't a difficulty. We build the Robotic Arm for training on MoveIt Motion Planning FrameWork. As we were knowing the tomato pose coordinates, we found the values of joint angles of final orientation with the help of simulator. This approach is called as Forward Kinematics where the joint angles are provided as input. This task gave us good exposure for dealing with robotic arm.
+<table><th><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Agribot_trough.png" width="350" height="250" style="margin-right: 30px"></th><th><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Picking_task_2.PNG" width="350" height="250" style="margin-right: 30px"></th>
+   <tr>
+    <td align='center'>
+    Tomato Plant
+</td>
+  <td align='center'>
+    End effector grabbing the tomato -(A glance from the implementation!!)
+</td></tr></table>
+## Task 3.1- Detecting & broadcasting tomato poses on Rviz
 
-<img src="https://github.com/AnuragGupta806/e-yantra-Vitran-Drone/blob/main/screenshots/task1.png" width="900" height="500">  
+## Task 3.2- Autonomous pick_N_place of tomatoes(Perception and Inverse Kinematics)
+## Task 4- Theme Implementation
+## Task 5- Final Theme Implementation

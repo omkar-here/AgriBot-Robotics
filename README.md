@@ -92,9 +92,13 @@ To watch our implementation:- <a href="https://www.youtube.com/watch?v=oFbbvw6vO
 <img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Task3_1.png" >
 
 ## Task 3.2- Autonomous pick_N_place of tomatoes(Perception and Inverse Kinematics)
-The aim of this task was to detect and pick_N_place ripe tomatoes in the basket.No collision of the robotic arm with the leaves,branches or other tomatoes was allowed.The most challenging part of this task was programming of the robotic arm.We were able to extract coordinates, and the end effector/gripper was supposed to reach till there from its initial position. We incorporated checkpoints to make sure that the gripper is exactly infront of the tomato before covering it and avoid clashing to breaking it from the stem. MoveIt Motion Planning Framework was used for visualization and training, we tried different path planning algorithms for smooth movement of the arm from initial to final state. The algorithms were able to formulate a path to the final state but these trajectories were highly complex and time consuming. Sometimes the arm would collide with the plant and other tomatoes.To overcome this, we limited the movement of 
+The aim of this task was to detect and pick_N_place ripe tomatoes in the basket.No collision of the robotic arm with the leaves,branches or other tomatoes was allowed.The most challenging part of this task was programming of the robotic arm.We were able to extract coordinates, and the end effector/gripper was supposed to reach till there from its initial position. We incorporated checkpoints to make sure that the gripper is exactly infront of the tomato before covering it and avoid clashing to breaking it from the stem. MoveIt Motion Planning Framework was used for visualization and training, we tried different path planning algorithms for smooth movement of the arm from initial to final state. The algorithms were able to formulate a path to the final state but these trajectories were highly complex and time consuming. Sometimes the arm would collide with the plant and other tomatoes.To overcome this, we limited the movement of joint angles only to certain degrees to avoid complex trajectories.This enabled us to perform pick and place properly.
+
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Cut_minimized.gif" width="1200px" height="700px"  >
+
+To watch our implementation:- <a href="https://youtu.be/C8fYwzjLWnY">Video</a>
 
 ## Task 4- Theme Implementation
-
+The Task-4 was our pre-final task in which we had to merge all the things learnt in the subtasks and accomplish the goal of bagging all the tomatoes in the shortest time possible. Initially, the orientation of the bot was getting distorted due to the inertia produced by the Robotic Arm.However, after writing the code for auto-alignment that issue was solved. We made sure that the Bot stopped before every aruco marker and analysed if the tomato infront of it is approachable or not. The pose coordinates of all tomatoes of a single plant were saved at the first detection cycle to save time on orientation.
 
 ## Task 5- Final Theme Implementation

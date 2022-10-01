@@ -92,7 +92,7 @@ To watch our implementation:- <a href="https://www.youtube.com/watch?v=oFbbvw6vO
 <img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Task3_1.png" >
 
 ## Task 3.2- Autonomous pick_N_place of tomatoes(Perception and Inverse Kinematics)
-
+The aim of this task was to detect and pick_N_place ripe tomatoes in the basket.No collision of the robotic arm with the leaves,branches or other tomatoes was allowed.The most challenging part of this task was programming of the robotic arm.We were able to extract coordinates, and the end effector/gripper was supposed to reach till there from its initial position. We incorporated checkpoints to make sure that the gripper is exactly infront of the tomato before covering it and avoid clashing to breaking it from the stem. MoveIt Motion Planning Framework was used for visualization and training, we tried different path planning algorithms for smooth movement of the arm from initial to final state. The algorithms were able to formulate a path to the final state but these trajectories were highly complex and time consuming. Sometimes the arm would collide with the plant and other tomatoes.To overcome this, we limited the movement of 
 
 ## Task 4- Theme Implementation
 

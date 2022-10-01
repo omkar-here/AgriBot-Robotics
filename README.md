@@ -39,13 +39,13 @@ We will use Gazebo simulator, a robotics simulator, where the simulated greenhou
 
 
 ## Tasks
-- [Task 0 - Getting familiar with ROS and Ubuntu](task_0/README.md)
-- [Task 1 - ROS navigation in the green house environment](task_1)
-- [Task 2 - Getting started with Arm Manipulation (Forward kinematics)](task_2)
-- [Task 3.1 - Detection and Extraction of tomato pose co-ordinates and broadcasting them in Rviz ](task_3_1)
-- [Task 3.2 - Autonomous Detection and performing Pick and Place with Robotic Arm (Inverse Kinematics)](task_3_2)
-- [Task 4 - Theme Implementation](task_4)
-- [Task 5 - Final Theme Implementation](task_5)
+- <b>Task 0 - Getting familiar with ROS and Ubuntu 
+- Task 1 - ROS navigation in the green house environment
+- Task 2 - Getting started with Arm Manipulation (Forward kinematics)
+- Task 3.1 - Detection and Extraction of tomato pose co-ordinates and broadcasting them in Rviz 
+- Task 3.2 - Autonomous Detection and performing Pick and Place with Robotic Arm (Inverse Kinematics)
+- Task 4 - Theme Implementation
+- Task 5 - Final Theme Implementation</b>
 ## Flow
 The competition was carried out in a step-wise manner. The whole theme implementation was divided into several subtasks and then the algorithms and techniques of individual tasks were to be skillfully merged to accomplish the Final Task. I have tried to explain our preparation,approach and implementation in each of the individual tasks properly. Its my request to read this entire repo to get the complete feel of our work. Hope its joyful!
 
@@ -106,12 +106,12 @@ The Task-4 was our final task in which we had to merge all the things learnt in 
 To watch our implementation:- <a href="https://youtu.be/0TVvBM_daSA">Video</a>
 
 ## Task 5- Final Theme Implementation
-After our Final task, this was an evaluation task where a new environment in which the tomato positions were changed was given and it was asked to make the code more robust. We tried to increase the velocity of movement of the bot.To avoid distortion due to inertia of the bot we incorporated variable velocity. A different path for navigation was chosen to increase speed and shorten the completion time. Our execution time was improved by almost 5.30 minutes compared to our previous task!!.
+After our Final task, this was an evaluation task where a new environment in which the tomato positions were changed was given and it was asked to make the code more robust. We tried to increase the velocity of the bot.To avoid distortion due to inertia of the bot we incorporated variable velocity. A different path for navigation was chosen to increase speed and shorten the completion time. Our execution time was improved by almost 5.30 minutes compared to our previous task!!.
 
-<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Cut_minimized.gif" width="1200px" height="700px"  >
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Task%204.png" width="1000px" height="550px"  >
 
 To watch our implementation:- <a href="https://youtu.be/gyZdeAM0CXU">Video</a>
 
 ## Results :partying_face:	 
-**After the Five Month Long Competition, my team was entitled to be in the Top 12 teams out of <br>255 teams participated internationally**	:partying_face:	:raised_hands:br>
-__My Certificate of Completion EYRC__:- <a href="https://drive.google.com/file/d/1NZF9tYL1Ba9Bu3cPE3qV5xRsI4C6IvSW/view?usp=sharing" >Certificate</a>
+**After the Five Month Long Competition, my team was entitled to be in the Top 12 teams out of 255 teams participated <br>internationally**	:partying_face:	:raised_hands:<br>
+_My Certificate of Completion EYRC_:- <a href="https://drive.google.com/file/d/1NZF9tYL1Ba9Bu3cPE3qV5xRsI4C6IvSW/view?usp=sharing" >Certificate</a>

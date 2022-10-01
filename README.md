@@ -94,7 +94,7 @@ To watch our implementation:- <a href="https://www.youtube.com/watch?v=oFbbvw6vO
 ## Task 3.2- Autonomous pick_N_place of tomatoes(Perception and Inverse Kinematics)
 The aim of this task was to detect and pick_N_place ripe tomatoes in the basket.No collision of the robotic arm with the leaves,branches or other tomatoes was allowed.The most challenging part of this task was programming of the robotic arm.We were able to extract coordinates, and the end effector/gripper was supposed to reach till there from its initial position. We incorporated checkpoints to make sure that the gripper is exactly infront of the tomato before covering it and avoid clashing to breaking it from the stem. MoveIt Motion Planning Framework was used for visualization and training, we tried different path planning algorithms for smooth movement of the arm from initial to final state. The algorithms were able to formulate a path to the final state but these trajectories were highly complex and time consuming. Sometimes the arm would collide with the plant and other tomatoes.To overcome this, we limited the movement of joint angles only to certain degrees to avoid complex trajectories.This enabled us to perform pick and place properly.
 
-<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Cut_minimized.gif" width="1200px" height="700px"  >
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Cut_minimized.gif" width="1000px" height="550px"    >
 
 To watch our implementation:- <a href="https://youtu.be/C8fYwzjLWnY">Video</a>
 
@@ -108,10 +108,10 @@ To watch our implementation:- <a href="https://youtu.be/0TVvBM_daSA">Video</a>
 ## Task 5- Final Theme Implementation
 After our Final task, this was an evaluation task where a new environment in which the tomato positions were changed was given and it was asked to make the code more robust. We tried to increase the velocity of the bot.To avoid distortion due to inertia of the bot we incorporated variable velocity. A different path for navigation was chosen to increase speed and shorten the completion time. Our execution time was improved by almost 5.30 minutes compared to our previous task!!.
 
-<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Task%204.png" width="1000px" height="550px"  >
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/real_final.gif" width="1000px" height="550px"  >
 
 To watch our implementation:- <a href="https://youtu.be/gyZdeAM0CXU">Video</a>
 
 ## Results :partying_face:	 
-**After the Five Month Long Competition, my team was entitled to be in the Top 12 teams out of 255 teams participated <br>internationally**	:partying_face:	:raised_hands:<br>
+**After the Five Month Long Competition, my team was entitled to be in the Top 12 teams out of 255 teams participated <br>internationally**	:partying_face:	:raised_hands:.<br>
 _My Certificate of Completion EYRC_:- <a href="https://drive.google.com/file/d/1NZF9tYL1Ba9Bu3cPE3qV5xRsI4C6IvSW/view?usp=sharing" >Certificate</a>

@@ -99,8 +99,19 @@ The aim of this task was to detect and pick_N_place ripe tomatoes in the basket.
 To watch our implementation:- <a href="https://youtu.be/C8fYwzjLWnY">Video</a>
 
 ## Task 4- Theme Implementation
-The Task-4 was our pre-final task in which we had to merge all the things learnt in the subtasks and accomplish the goal of bagging all the tomatoes in the shortest time possible. Initially, the orientation of the bot was getting distorted due to the inertia produced by the Robotic Arm.However, after writing the code for auto-alignment that issue was solved. We made sure that the Bot stopped before every aruco marker and analysed if the tomato infront of it is approachable or not. The pose coordinates of all tomatoes of a single plant were saved at the first detection cycle to save time on orientation and processing.
+The Task-4 was our final task in which we had to merge all the things learnt in the subtasks and accomplish the goal of bagging all the tomatoes in the shortest time possible. Initially, the orientation of the bot was getting distorted due to the inertia produced by the Robotic Arm.However, after writing the code for auto-alignment that issue was solved. We made sure that the Bot stopped before every aruco marker and analysed if the tomato infront of it is approachable or not. The pose coordinates of all tomatoes of a single plant were saved at the first detection cycle to save time on orientation and processing. After executing our code this whole task ran completely autonomous without our intervention required at any point.
+
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Task%204.png" width="1000px" height="550px"  >
 
 To watch our implementation:- <a href="https://youtu.be/0TVvBM_daSA">Video</a>
 
 ## Task 5- Final Theme Implementation
+After our Final task, this was an evaluation task where a new environment in which the tomato positions were changed was given and it was asked to make the code more robust. We tried to increase the velocity of movement of the bot.To avoid distortion due to inertia of the bot we incorporated variable velocity. A different path for navigation was chosen to increase speed and shorten the completion time. Our execution time was improved by almost 5.30 minutes compared to our previous task!!.
+
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Cut_minimized.gif" width="1200px" height="700px"  >
+
+To watch our implementation:- <a href="https://youtu.be/gyZdeAM0CXU">Video</a>
+
+## Results :partying_face:	 
+**After the Five Month Long Competition, my team was entitled to be in the Top 12 teams out of <br>255 teams participated internationally**	:partying_face:	:raised_hands:br>
+__My Certificate of Completion EYRC__:- <a href="https://drive.google.com/file/d/1NZF9tYL1Ba9Bu3cPE3qV5xRsI4C6IvSW/view?usp=sharing" >Certificate</a>

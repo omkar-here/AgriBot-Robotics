@@ -69,6 +69,7 @@ A LIDAR sensor is present in the Agribot vehicle at its center. With the help of
   <td align='center'>
     GreenHouse Environment
 </td></tr></table>
+To watch our implementation:- <a href="https://youtu.be/OgofVdM-6HM">Video</a>
 
 ## Task 2- Robotic Arm Manipulation
 In this task the Bot was supposed to perform pick_N_place of tomatoes in the basket.In this task we were provided with tomato poses.Hence knowing where the tomato is, wasn't a difficulty. We build the Robotic Arm for training on MoveIt Motion Planning FrameWork. As we were knowing the tomato pose coordinates, we found the values of joint angles of final orientation with the help of simulator. This approach is called as Forward Kinematics where the joint angles are provided as input. This task gave us good exposure for dealing with robotic arm.
@@ -81,7 +82,19 @@ In this task the Bot was supposed to perform pick_N_place of tomatoes in the bas
     End effector grabbing the tomato -(A glance from the implementation!!)
 </td></tr></table>
 
-## Task 3.1- Detecting & broadcasting tomato poses on Rviz
+To watch our implementation:- <a href="https://youtu.be/BIcqByAgQaM">Video</a>
+
+## Task 3.1- Detection,Perception & broadcasting of tomato poses on Rviz
+The aim of this task was to detect ripe tomatoes and broadcast its poses on Rviz. To broadcast a point in Rviz, coordinate positions are required.In our case, origin was center of Agribot.A camera is located near the end-effector from which live feed is recieved. We used OpenCv to detect ripe tomatoes and noted their pixel coordinates. To estimate the depth of tomato we used Depth image(Distance in plane parallel to the ground). We could trace the X and Y coordinates dynamically with respect to the origin with help of focal length of camera and pixel coordinates of center of tomato. Our bot was supposed to traverse around troughs and broadcast all tomatoes in Rviz.
+
+To watch our implementation:- <a href="https://www.youtube.com/watch?v=oFbbvw6vOtk">Video</a>
+
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Task3_1.png" >
+
 ## Task 3.2- Autonomous pick_N_place of tomatoes(Perception and Inverse Kinematics)
+
+
 ## Task 4- Theme Implementation
+
+
 ## Task 5- Final Theme Implementation

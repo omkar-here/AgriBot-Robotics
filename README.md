@@ -99,6 +99,8 @@ The aim of this task was to detect and pick_N_place ripe tomatoes in the basket.
 To watch our implementation:- <a href="https://youtu.be/C8fYwzjLWnY">Video</a>
 
 ## Task 4- Theme Implementation
-The Task-4 was our pre-final task in which we had to merge all the things learnt in the subtasks and accomplish the goal of bagging all the tomatoes in the shortest time possible. Initially, the orientation of the bot was getting distorted due to the inertia produced by the Robotic Arm.However, after writing the code for auto-alignment that issue was solved. We made sure that the Bot stopped before every aruco marker and analysed if the tomato infront of it is approachable or not. The pose coordinates of all tomatoes of a single plant were saved at the first detection cycle to save time on orientation.
+The Task-4 was our pre-final task in which we had to merge all the things learnt in the subtasks and accomplish the goal of bagging all the tomatoes in the shortest time possible. Initially, the orientation of the bot was getting distorted due to the inertia produced by the Robotic Arm.However, after writing the code for auto-alignment that issue was solved. We made sure that the Bot stopped before every aruco marker and analysed if the tomato infront of it is approachable or not. The pose coordinates of all tomatoes of a single plant were saved at the first detection cycle to save time on orientation and processing.
+
+To watch our implementation:- <a href="https://youtu.be/0TVvBM_daSA">Video</a>
 
 ## Task 5- Final Theme Implementation

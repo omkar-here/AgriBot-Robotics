@@ -82,7 +82,7 @@ In this task the Bot was supposed to perform pick_N_place of tomatoes in the bas
     End effector grabbing the tomato -(A glance from the implementation!!)
 </td></tr></table>
 
-To watch our implementation:- <a target="_blank" href="https://youtu.be/BIcqByAgQaM">Video</a>
+To watch our implementation:- <a target="_blank" href="https://youtu.be/pPgfIrb9fp0">Video</a>
 
 ## Task 3.1- Detection,Perception & broadcasting of tomato poses on Rviz
 The aim of this task was to detect ripe tomatoes and broadcast its poses on Rviz. To broadcast a point in Rviz, coordinate positions are required.In our case, origin was center of Agribot.A camera is located near the end-effector from which live feed is recieved. We used OpenCv to detect ripe tomatoes and noted their pixel coordinates. To estimate the depth of tomato we used Depth image(Distance in plane parallel to the ground). We could trace the X and Y coordinates dynamically with respect to the origin with help of focal length of camera and pixel coordinates of center of tomato. Our bot was supposed to traverse around troughs and broadcast all tomatoes in Rviz.
@@ -96,7 +96,7 @@ The aim of this task was to detect and pick_N_place ripe tomatoes in the basket.
 
 <img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Cut_minimized.gif" width="1000px" height="550px"    >
 
-To watch our implementation:- <a target="_blank" href="https://youtu.be/C8fYwzjLWnY">Video</a>
+To watch our implementation:- <a target="_blank" href="https://youtu.be/-HFzqdZjz7w">Video</a>
 
 ## Task 4- Theme Implementation
 The Task-4 was our final task in which we had to merge all the things learnt in the subtasks and accomplish the goal of bagging all the tomatoes in the shortest time possible. Initially, the orientation of the bot was getting distorted due to the inertia produced by the Robotic Arm.However, after writing the code for auto-alignment that issue was solved. We made sure that the Bot stopped before every aruco marker and analysed if the tomato infront of it is approachable or not. The pose coordinates of all tomatoes of a single plant were saved at the first detection cycle to save time on orientation and processing. After executing our code this whole task ran completely autonomous without our intervention required at any point.
@@ -110,7 +110,7 @@ After our Final task, this was an evaluation task where a new environment in whi
 
 <img src="https://github.com/Omkar-here/Agri-Bot/blob/main/real_final.gif" width="1000px" height="550px"  >
 
-To watch our implementation:- <a target="_blank" href="https://youtu.be/gyZdeAM0CXU">Video</a>
+To watch our implementation:- <a target="_blank" href="https://youtu.be/a7jwkpukROs">Video</a>
 
 ## Results :partying_face:	 
 **After the Five Month Long Competition, my team was entitled to be in the Top 12 teams out of 255 teams participated <br>internationally**	:partying_face:	:raised_hands:.<br>

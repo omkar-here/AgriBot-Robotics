@@ -2,7 +2,7 @@
 
 ![](Agribot.png)
 
-AgriBot is one of the themes in 10th edition of <a href="https://portal.e-yantra.org/" target="_blank">E-Yantra Robotics Competition</a> [E-Yantra Robotics Competition](https://portal.e-yantra.org/) 2021-2022 , an international robotics outreach program funded by the Ministry of Education and hosted at the [Indian Institute of Technology, Bombay](https://www.iitbombay.org/)
+AgriBot is one of the themes in 10th edition of <a href="https://portal.e-yantra.org/" target="_blank">freeCodeCamp</a> [E-Yantra Robotics Competition](https://portal.e-yantra.org/) 2021-2022 , an international robotics outreach program funded by the Ministry of Education and hosted at the [Indian Institute of Technology, Bombay](https://www.iitbombay.org/)
 
 This repository explains our approach to the tasks for the AgriBot theme. 
 

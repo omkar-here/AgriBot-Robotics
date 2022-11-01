@@ -69,7 +69,7 @@ A LIDAR sensor is present in the Agribot vehicle at its center. With the help of
   <td align='center'>
     GreenHouse Environment
 </td></tr></table>
-To watch our implementation:- <a href="https://youtu.be/OgofVdM-6HM">Video</a>
+To watch our implementation:- <a target="_blank" href="https://youtu.be/OgofVdM-6HM">Video</a>
 
 ## Task 2- Robotic Arm Manipulation
 In this task the Bot was supposed to perform pick_N_place of tomatoes in the basket.In this task we were provided with tomato poses.Hence knowing where the tomato is, wasn't a difficulty. We build the Robotic Arm for training on MoveIt Motion Planning FrameWork. As we were knowing the tomato pose coordinates, we found the values of joint angles of final orientation with the help of simulator. This approach is called as Forward Kinematics where the joint angles are provided as input. This task gave us good exposure for dealing with robotic arm.
@@ -82,12 +82,12 @@ In this task the Bot was supposed to perform pick_N_place of tomatoes in the bas
     End effector grabbing the tomato -(A glance from the implementation!!)
 </td></tr></table>
 
-To watch our implementation:- <a href="https://youtu.be/BIcqByAgQaM">Video</a>
+To watch our implementation:- <a target="_blank" href="https://youtu.be/BIcqByAgQaM">Video</a>
 
 ## Task 3.1- Detection,Perception & broadcasting of tomato poses on Rviz
 The aim of this task was to detect ripe tomatoes and broadcast its poses on Rviz. To broadcast a point in Rviz, coordinate positions are required.In our case, origin was center of Agribot.A camera is located near the end-effector from which live feed is recieved. We used OpenCv to detect ripe tomatoes and noted their pixel coordinates. To estimate the depth of tomato we used Depth image(Distance in plane parallel to the ground). We could trace the X and Y coordinates dynamically with respect to the origin with help of focal length of camera and pixel coordinates of center of tomato. Our bot was supposed to traverse around troughs and broadcast all tomatoes in Rviz.
 
-To watch our implementation:- <a href="https://www.youtube.com/watch?v=oFbbvw6vOtk">Video</a>
+To watch our implementation:- <a target="_blank" href="https://www.youtube.com/watch?v=oFbbvw6vOtk">Video</a>
 
 <img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Task3_1.png" >
 
@@ -96,22 +96,22 @@ The aim of this task was to detect and pick_N_place ripe tomatoes in the basket.
 
 <img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Cut_minimized.gif" width="1000px" height="550px"    >
 
-To watch our implementation:- <a href="https://youtu.be/C8fYwzjLWnY">Video</a>
+To watch our implementation:- <a target="_blank" href="https://youtu.be/C8fYwzjLWnY">Video</a>
 
 ## Task 4- Theme Implementation
 The Task-4 was our final task in which we had to merge all the things learnt in the subtasks and accomplish the goal of bagging all the tomatoes in the shortest time possible. Initially, the orientation of the bot was getting distorted due to the inertia produced by the Robotic Arm.However, after writing the code for auto-alignment that issue was solved. We made sure that the Bot stopped before every aruco marker and analysed if the tomato infront of it is approachable or not. The pose coordinates of all tomatoes of a single plant were saved at the first detection cycle to save time on orientation and processing. After executing our code this whole task ran completely autonomous without our intervention required at any point.
 
 <img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Task%204.png" width="1000px" height="550px"  >
 
-To watch our implementation:- <a href="https://youtu.be/0TVvBM_daSA">Video</a>
+To watch our implementation:- <a target="_blank" href="https://youtu.be/0TVvBM_daSA">Video</a>
 
 ## Task 5- Final Theme Implementation
 After our Final task, this was an evaluation task where a new environment in which the tomato positions were changed was given and it was asked to make the code more robust. We tried to increase the velocity of the bot.To avoid distortion due to inertia of the bot we incorporated variable velocity. A different path for navigation was chosen to increase speed and shorten the completion time. Our execution time was improved by almost 5.30 minutes compared to our previous task!!.
 
 <img src="https://github.com/Omkar-here/Agri-Bot/blob/main/real_final.gif" width="1000px" height="550px"  >
 
-To watch our implementation:- <a href="https://youtu.be/gyZdeAM0CXU">Video</a>
+To watch our implementation:- <a target="_blank" href="https://youtu.be/gyZdeAM0CXU">Video</a>
 
 ## Results :partying_face:	 
 **After the Five Month Long Competition, my team was entitled to be in the Top 12 teams out of 255 teams participated <br>internationally**	:partying_face:	:raised_hands:.<br>
-_My Certificate of Completion EYRC_:- <a href="https://drive.google.com/file/d/1NZF9tYL1Ba9Bu3cPE3qV5xRsI4C6IvSW/view?usp=sharing" >Certificate</a>
+_My Certificate of Completion EYRC_:- <a target="_blank" href="https://drive.google.com/file/d/1NZF9tYL1Ba9Bu3cPE3qV5xRsI4C6IvSW/view?usp=sharing" >Certificate</a>

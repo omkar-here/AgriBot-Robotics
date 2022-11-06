@@ -53,16 +53,17 @@ The competition was carried out in a step-wise manner. The whole theme implement
 The aim of this task is to get you started with installation of required software components like ROS Melodic and Gazebo. An small assignment was given to get hands-on ROS and other tools.
 
 
-<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Gazebo.PNG" width="400" height="300"><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/ROS%20Melodic.png" width="400" height="300">
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/Gazebo.PNG" width="400" height="300"><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/ROS%20Melodic.png" width="400" height="300">
+
 
 ## Task 1 - Autonomous Navigation in the GreenHouse
 The aim of this task is to make the AgriBot move in the Entire GreenHouse Environment in the shortest time possible. 
 A LIDAR sensor is present in the Agribot vehicle at its center. With the help of LIDAR sensor data, we programmed our Agribot to navigate properly without collisions with the troughs. We incorporated smooth turnings at endpoints to save on time.Rospy was mainly used as the programming language including other python libraries.
 
-<!-- <img src="" width="400" height="300" style="margin-right: 30px"><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Agribot_greenhouse.png" width="400" height="300">
+<!-- <img src="" width="400" height="300" style="margin-right: 30px"><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/Agribot_greenhouse.png" width="400" height="300">
 <p>                  AgriBot                      </p> -->
-<table><th><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/agribot.png" width="400" height="300" style="margin-right: 30px"></th>
-    <th><img style="margin-right: 50px" src="https://github.com/Omkar-here/Agri-Bot/blob/main/Agribot_greenhouse.png" width="400" height="300px" ></th><tr>
+<table><th><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/agribot.png" width="400" height="300" style="margin-right: 30px"></th>
+    <th><img style="margin-right: 50px" src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/Agribot_greenhouse.png" width="400" height="300px" ></th><tr>
     <td>
     AgriBot-A csv vehicle with 6-DOF Robotic Arm mounted.
 </td>
@@ -73,7 +74,7 @@ To watch our implementation:- <a target="_blank" href="https://youtu.be/OgofVdM-
 
 ## Task 2- Robotic Arm Manipulation
 In this task the Bot was supposed to perform pick_N_place of tomatoes in the basket.In this task we were provided with tomato poses.Hence knowing where the tomato is, wasn't a difficulty. We build the Robotic Arm for training on MoveIt Motion Planning FrameWork. As we were knowing the tomato pose coordinates, we found the values of joint angles of final orientation with the help of simulator. This approach is called as Forward Kinematics where the joint angles are provided as input. This task gave us good exposure for dealing with robotic arm.
-<table><th><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Agribot_trough.png" width="350" height="250" style="margin-right: 30px"></th><th><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Picking_task_2.PNG" width="350" height="250" style="margin-right: 30px"></th>
+<table><th><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/Agribot_trough.png" width="350" height="250" style="margin-right: 30px"></th><th><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/Picking_task_2.PNG" width="350" height="250" style="margin-right: 30px"></th>
    <tr>
     <td align='center'>
     Tomato Plant
@@ -89,29 +90,31 @@ The aim of this task was to detect ripe tomatoes and broadcast its poses on Rviz
 
 To watch our implementation:- <a target="_blank" href="https://youtu.be/3dCZS5yuNys">Video</a>
 
-<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Task3_1.png" >
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/Task3_1.png" >
 
 ## Task 3.2- Autonomous pick_N_place of tomatoes(Perception and Inverse Kinematics)
 The aim of this task was to detect and pick_N_place ripe tomatoes in the basket.No collision of the robotic arm with the leaves,branches or other tomatoes was allowed.The most challenging part of this task was programming of the robotic arm.We were able to extract coordinates, and the end effector/gripper was supposed to reach till there from its initial position. We incorporated checkpoints to make sure that the gripper is exactly infront of the tomato before covering it and avoid clashing to breaking it from the stem. MoveIt Motion Planning Framework was used for visualization and training, we tried different path planning algorithms for smooth movement of the arm from initial to final state. The algorithms were able to formulate a path to the final state but these trajectories were highly complex and time consuming. Sometimes the arm would collide with the plant and other tomatoes.To overcome this, we limited the movement of joint angles only to certain degrees to avoid complex trajectories.This enabled us to perform pick and place properly.
 
-<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Cut_minimized.gif" width="1000px" height="550px"    >
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/Cut_minimized.gif" width="1000px" height="550px"    >
 
 To watch our implementation:- <a target="_blank" href="https://youtu.be/-HFzqdZjz7w">Video</a>
 
 ## Task 4- Theme Implementation
 The Task-4 was our final task in which we had to merge all the things learnt in the subtasks and accomplish the goal of bagging all the tomatoes in the shortest time possible. Initially, the orientation of the bot was getting distorted due to the inertia produced by the Robotic Arm.However, after writing the code for auto-alignment that issue was solved. We made sure that the Bot stopped before every aruco marker and analysed if the tomato infront of it is approachable or not. The pose coordinates of all tomatoes of a single plant were saved at the first detection cycle to save time on orientation and processing. After executing our code this whole task ran completely autonomous without our intervention required at any point.
 
-<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/Task%204.png" width="1000px" height="550px"  >
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/Task%204.png" width="1000px" height="550px"  >
 
 To watch our implementation:- <a target="_blank" href="https://www.youtube.com/watch?v=dmL3B6amfMY">Video</a>
 
 ## Task 5- Final Theme Implementation
 After our Final task, this was an evaluation task where a new environment in which the tomato positions were changed was given and it was asked to make the code more robust. We tried to increase the velocity of the bot.To avoid distortion due to inertia of the bot we incorporated variable velocity. A different path for navigation was chosen to increase speed and shorten the completion time. Our execution time was improved by almost 5.30 minutes compared to our previous task!!.
 
-<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/real_final.gif" width="1000px" height="550px"  >
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/real_final.gif" width="1000px" height="550px"  >
 
 To watch our implementation:- <a target="_blank" href="https://youtu.be/a7jwkpukROs">Video</a>
 
 ## Results :partying_face:	 
 **After the Five Month Long Competition, my team was entitled to be in the Top 12 teams out of 255 teams participated <br>internationally**	:partying_face:	:raised_hands:.<br>
 _My Certificate of Completion EYRC_:- <a target="_blank" href="https://drive.google.com/file/d/1NZF9tYL1Ba9Bu3cPE3qV5xRsI4C6IvSW/view?usp=sharing" >Certificate</a>
+
+

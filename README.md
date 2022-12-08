@@ -82,7 +82,7 @@ In this task the Bot was supposed to perform pick_N_place of tomatoes in the bas
     End effector grabbing the tomato -(A glance from the implementation!!)
 </td></tr></table>
 
-To watch our implementation:- <a target="_blank" href="https://youtu.be/pPgfIrb9fp0">Video</a>
+To watch our implementation:-<a target="_blank" href="https://youtu.be/pPgfIrb9fp0">Video</a>
 
 ## Task 3.1- Detection,Perception & broadcasting of tomato poses on Rviz
 The aim of this task was to detect ripe tomatoes and broadcast its poses on Rviz. To broadcast a point in Rviz, coordinate positions are required.In our case, origin was center of Agribot.A camera is located near the end-effector from which live feed is recieved. We used OpenCv to detect ripe tomatoes and noted their pixel coordinates. To estimate the depth of tomato we used Depth image(Distance in plane parallel to the ground). We could trace the X and Y coordinates dynamically with respect to the origin with help of focal length of camera and pixel coordinates of center of tomato. Our bot was supposed to traverse around troughs and broadcast all tomatoes in Rviz.

@@ -1,7 +1,7 @@
 # AgriBot
 
 <a href="#" ><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/Agribot_metafiles.png"> </a>
-AgriBot is one of the themes in 10th edition of [E-Yantra Robotics Competition](https://portal.e-yantra.org/) 2021-2022 , an international robotics outreach program funded by the Ministry of Education and hosted at the [Indian Institute of Technology, Bombay](https://www.iitbombay.org/)
+AgriBot is one of the themes in 10th edition of [E-Yantra Robotics Competition](https://portal.e-yantra.org/) 2021-2022 , an international robotics outreach program fuded by the Ministry of Education and hosted at the [Indian Institute of Technology, Bombay](https://www.iitbombay.org/)
 
 This repository explains our approach to the tasks for the AgriBot theme. 
 

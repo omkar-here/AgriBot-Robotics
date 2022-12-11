@@ -114,6 +114,6 @@ To watch our implementation:- <a target="_blank" href="https://youtu.be/a7jwkpuk
 
 ## Results :partying_face:	 
 **After the Five Month Long Competition, my team was entitled to be in the Top 12 teams out of 255 teams participated <br>internationally**	:partying_face:	:raised_hands:.<br>
-_My Certificate of Completion EYRC_:- <a target="_blank" href="https://drive.google.com/file/d/1NZF9tYL1Ba9Bu3cPE3qV5xRsI4C6IvSW/view?usp=sharing" >Certificate</a>
+_My Certificate of Accomplishment EYRC_:- <a target="_blank" href="https://drive.google.com/file/d/1NZF9tYL1Ba9Bu3cPE3qV5xRsI4C6IvSW/view?usp=sharing" >Certificate</a>
 
 

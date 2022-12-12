@@ -49,10 +49,10 @@ We will use Gazebo simulator, a robotics simulator, where the simulated greenhou
 The competition was carried out in a step-wise manner. The whole theme implementation was divided into several subtasks and then the algorithms and techniques of individual tasks were to be skillfully merged to accomplish the Final Task. I have tried to explain our preparation,approach and implementation in each of the individual tasks properly. Its my request to read this entire repo to get the complete feel of our work. Hope its joyful!
 
 ## Task 0
-The aim of this task is to get you started with installation of required software components like ROS Melodic and Gazebo. An small assignment was given to get hands-on ROS and other tools.
+The aim of this task is to get you started with installation of required software components like ROS Noetic and Gazebo. An small assignment was given to get hands-on ROS and other tools.
 
 
-<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/Gazebo.PNG" width="400" height="300"><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/ROS%20Melodic.png" width="400" height="300">
+<img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/Gazebo.PNG" width="400" height="300"><img src="https://github.com/Omkar-here/Agri-Bot/blob/main/metafiles/noetic.jpeg" width="400" height="300">
 
 
 ## Task 1 - Autonomous Navigation in the GreenHouse
